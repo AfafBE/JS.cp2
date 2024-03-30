@@ -1,0 +1,21 @@
+//Find Maximum and Minimum
+function findMax(arr) {
+    return Math.max(...arr);
+}
+
+function findMin(arr) {
+    return Math.min(...arr);
+}
+
+
+//Sum of Array
+function sumArray(arr) {
+    return arr.reduce((sum, num) => sum + num, 0);
+}
+
+
+//Filter Array
+
+function filterArray(arr, condition) {
+    return arr.filter(condition);
+}
